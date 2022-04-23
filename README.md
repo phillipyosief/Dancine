@@ -7,8 +7,7 @@ Use one music client to play music from multiple streaming services.
 ![](https://img.shields.io/github/downloads/philliphqs/musicclient/total?style=for-the-badge)
 ![](https://img.shields.io/github/issues/philliphqs/musicclient?style=for-the-badge)
 ![](https://img.shields.io/github/sponsors/philliphqs?style=for-the-badge)
-![](https://img.shields.io/github/stars/philliphqs/musicclient?style=for-the-badge)
-![](https://img.shields.io/github/license/philliphqs/musicclient?style=for-the-badge)
+
 ## Installation
 
 Look in the release section for the latest version.
@@ -20,7 +19,7 @@ Look in the release section for the latest version.
 
 ## Meta
 
-Your Name – [@phillip_hqs](https://twitter.com/phillip_hqs) – philliphqs@protonmail.com
+philliphqs – [@phillip_hqs](https://twitter.com/phillip_hqs) – philliphqs@protonmail.com
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
