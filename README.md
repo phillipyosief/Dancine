@@ -8,9 +8,9 @@ Use one music client to play music from multiple streaming services.
 ![](https://img.shields.io/github/issues/philliphqs/musicclient?style=for-the-badge)
 ![](https://img.shields.io/github/sponsors/philliphqs?style=for-the-badge)
 
-## Installation
+## Download
 
-Look in the release section for the latest version.
+[Download for Windows]()
 
 ## Release History
 
@@ -25,6 +25,15 @@ Look in the release section for the latest version.
 * 0.0.1: Initial release.
     * Work in progress
 
+## Building
+
+Windows:
+```bash
+git clone https://github.com/philliphqs/musicclient.git
+cd musicclient
+npm i
+yarn app:dist
+```
 ## Meta
 
 philliphqs – [@phillip_hqs](https://twitter.com/phillip_hqs) – philliphqs@protonmail.com
