@@ -4,7 +4,7 @@ var fs = require('fs');
 
 function set_default_service(url) {
     console.log('[settings.js] set_default_service('+url+')')
-    fs.writeFile('src/default_service', url, function (err) {
+    fs.writeFile('default_service', url, function (err) {
         if (err) throw err;
         console.log('[settings.js] default_service saved');
       });

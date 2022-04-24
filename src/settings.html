@@ -84,7 +84,7 @@
         var fs = require('fs');
         try {
             console.log('[settings.html] try to find default_service');
-            fs.readFile('src/default_service',
+            fs.readFile('default_service',
               // callback function that is called when reading file is done
               function(err, data) {       
                   if (err) throw err;
