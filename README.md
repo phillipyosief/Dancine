@@ -14,11 +14,15 @@ Look in the release section for the latest version.
 
 ## Release History
 
-* 0.0.2: Latest release.
+* 0.0.3: Latest release.
+    * Building the app for Windows.
+    * Adding ``default_service``
+    * Fixing Settings ``GoBack()`` 
+* 0.0.2: Test release.
     * You can configure the client default service
     * Settings page
     * Fixed some bugs
-* 0.0.1
+* 0.0.1: Initial release.
     * Work in progress
 
 ## Meta

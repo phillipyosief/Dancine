@@ -1,7 +1,7 @@
 {
   "name": "musicclient",
   "productName": "musicclient",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "musicclient for Apple Music, Spotify, and YouTube Music all in one place",
   "main": "src/index.js",
   "scripts": {
@@ -9,7 +9,9 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\""
+    "lint": "echo \"No linting configured\"",
+    "app:dir": "electron-builder --dir",
+    "app:dist": "electron-builder"
   },
   "keywords": [],
   "author": {
@@ -57,6 +59,16 @@
     "@electron-forge/maker-rpm": "^6.0.0-beta.63",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.63",
     "@electron-forge/maker-zip": "^6.0.0-beta.63",
-    "electron": "18.1.0"
+    "electron": "^18.1.0",
+    "electron-builder": "^23.0.3",
+    "electron-winstaller": "^5.0.0",
+    "electron-wix-msi": "^4.0.0"
+  },
+  "build": {
+    "appId": "com.hqsartworks.musicclient",
+    "icon": "assets/icon.ico",
+    "mac": {
+      "category": "music"
+    }
   }
 }
