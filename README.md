@@ -14,6 +14,10 @@ Look in the release section for the latest version.
 
 ## Release History
 
+* 0.0.2: Latest release.
+    * You can configure the client default service
+    * Settings page
+    * Fixed some bugs
 * 0.0.1
     * Work in progress
 

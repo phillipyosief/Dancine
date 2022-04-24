@@ -25,26 +25,26 @@
 
 <body id="page-top" style="background: #2a2d32;">
     <div id="wrapper" style="height: 58px;">
-        <div class="dropdown"><button class="btn btn-primary" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="margin-left: 13px;margin-top: 10px;background: rgba(255,255,255,0);border-style: none;"><i class="fas fa-bars" style="color: rgb(209,211,226);font-size: 20px;"></i></button>
-            <div class="dropdown-menu" style="background: rgb(42,45,50);border-style: solid;border-color: rgb(209,211,226);margin-left: 13px;"><a class="dropdown-item" href="#" style="color: rgb(209,211,226);" onclick="open_url(&#39;https://github.com/philliphqs/musicclient&#39;)"><i class="fab fa-github"></i>&nbsp; &nbsp; GitHub</a><a class="dropdown-item" href="#" style="color: rgb(209,211,226);" onclick="report_a_bug()"><i class="fas fa-bug"></i>&nbsp; &nbsp; Report a bug</a><a class="dropdown-item" href="settings.html" style="color: rgb(209,211,226);"><i class="fas fa-cog"></i>&nbsp; &nbsp; Settings</a>
+        <div class="dropdown"><a class="btn btn-primary" aria-expanded="false" data-bs-toggle="dropdown" role="button" style="margin-left: 13px;margin-top: 10px;background: rgba(255,255,255,0);border-style: none;" href="index.html"><i class="fas fa-bars" style="color: rgb(209,211,226);font-size: 20px;"></i></a>
+            <div class="dropdown-menu" style="background: rgb(42,45,50);border-style: solid;border-color: rgb(209,211,226);margin-left: 13px;"><a class="dropdown-item" href="#" style="color: rgb(209,211,226);" onclick="open_url(&#39;https://github.com/philliphqs/musicclient&#39;)"><i class="fab fa-github"></i>&nbsp; &nbsp; GitHub</a><a class="dropdown-item" href="#" style="color: rgb(209,211,226);" onclick="report_a_bug()"><i class="fas fa-bug"></i>&nbsp; &nbsp; Report a bug</a><a class="dropdown-item" href="#" style="color: rgb(209,211,226);" onclick="open_url(&#39;settings.html&#39;)"><i class="fas fa-cog"></i>&nbsp; &nbsp; Settings</a>
                 <div class="dropdown-divider" style="color: rgb(0,23,198);"></div><a class="dropdown-item" href="#" style="color: rgb(209,211,226);" onclick="close_app()"><i class="fas fa-sign-out-alt"></i>&nbsp; &nbsp; Exit</a>
             </div>
-        </div><button class="btn btn-primary" type="button" style="background: rgba(78,115,223,0);border-style: none;height: 36px;margin-top: 11px;" onclick="GoBack()"><i class="fas fa-arrow-left" style="font-size: 20px;margin-bottom: 6px;color: rgb(209,211,226);"></i></button>
+        </div><a class="btn btn-primary" role="button" style="background: rgba(78,115,223,0);border-style: none;height: 36px;margin-top: 11px;" href="index.html"><i class="fas fa-arrow-left" style="font-size: 20px;margin-bottom: 6px;color: rgb(209,211,226);"></i></a>
         <div class="d-flex flex-column" id="content-wrapper" style="background: rgba(248,249,252,0);height: 53px;min-height: 0px;margin-top: 7px;">
             <nav class="navbar navbar-light navbar-expand bg-white shadow-none d-xl-flex justify-content-xl-center align-items-xl-center mb-4 topbar static-top" style="height: 4px;-webkit-app-region: drag;margin-top: 13px;background: linear-gradient(#2a2d32 0%, #2a2d32), rgb(0,0,0);border-style: none;">
                 <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle me-3" id="sidebarToggleTop-1" type="button"><i class="fas fa-bars"></i></button>
                     <ul class="navbar-nav flex-nowrap ms-auto">
-                        <li class="nav-item dropdown no-arrow mx-1" style="height: 43px;" onclick="open_url(&#39;https://music.youtube.com&#39;)">
+                        <li class="nav-item dropdown no-arrow mx-1" style="height: 43px;" href="index.html">
                             <div class="nav-item dropdown show no-arrow"><a class="dropdown-toggle active nav-link" aria-expanded="true" data-bs-toggle="dropdown" style="-webkit-app-region: no-drag;height: 43px;margin-top: 0px;"><i class="fab fa-youtube fa-fw" style="font-size: 20px;"></i></a>
                                 <div class="dropdown-menu show dropdown-list animated--grow-in" style="background: rgba(255,255,255,0);color: rgba(133,135,150,0);"></div>
                             </div>
                         </li>
-                        <li class="nav-item dropdown no-arrow mx-1" style="height: 43px;" onclick="open_url(&#39;https://open.spotify.com&#39;)">
+                        <li class="nav-item dropdown no-arrow mx-1" style="height: 43px;" onclick="open_url(&#39;https://open.spotify.com&#39;)" href="index.html">
                             <div class="nav-item dropdown show no-arrow"><a class="dropdown-toggle active nav-link" aria-expanded="true" data-bs-toggle="dropdown" style="-webkit-app-region: no-drag;height: 43px;margin-top: 0px;"><i class="fab fa-spotify fa-fw" style="font-size: 20px;"></i></a>
                                 <div class="dropdown-menu show dropdown-list animated--grow-in" style="background: rgba(255,255,255,0);color: rgba(133,135,150,0);"></div>
                             </div>
                         </li>
-                        <li class="nav-item dropdown no-arrow mx-1" style="height: 43px;" onclick="open_url(&#39;https://music.apple.com&#39;)">
+                        <li class="nav-item dropdown no-arrow mx-1" style="height: 43px;" onclick="open_url(&#39;https://music.apple.com&#39;)" href="index.html">
                             <div class="nav-item dropdown show no-arrow"><a class="dropdown-toggle active nav-link" aria-expanded="true" data-bs-toggle="dropdown" style="-webkit-app-region: no-drag;height: 43px;margin-top: 0px;"><i class="fab fa-itunes fa-fw" style="font-size: 20px;"></i></a>
                                 <div class="dropdown-menu show dropdown-list animated--grow-in" style="background: rgba(255,255,255,0);color: rgba(133,135,150,0);"></div>
                             </div>
@@ -67,29 +67,49 @@
                 </div>
             </nav>
         </div>
-    </div>    <script>
+    </div>
+    <section class="py-4 py-xl-5">
+        <div class="container" style="width: 845px;height: 137.797px;">
+            <div class="text-center p-4 p-lg-5">
+                <div class="card" style="background: rgba(0,0,0,0.14);color: rgb(209,211,226);box-shadow: 0px 0px 20px 0px rgba(209,211,226,0.19);height: 189.797px;">
+                    <div class="card-body">
+                        <h4 class="card-title" style="color: rgb(209, 211, 226);text-align: center;margin-left: -5px;">Settings</h4>
+                        <section class="py-4 py-xl-5">
+                            <div class="container">
+                                <div class="bg-light border rounded border-0 border-light d-flex flex-column justify-content-between flex-lg-row p-4 p-md-5" style="height: 118.781px;background: linear-gradient(#24272b, #24272b), rgb(36,39,43);margin-top: -53px;">
+                                    <div class="pb-2 pb-lg-1">
+                                        <p class="mb-0" style="color: rgb(209, 211, 226);text-align: left;"><i class="fas fa-music"></i>&nbsp; &nbsp; Set default streaming service:</p><div id="setting_default_service_text" style="font-size: 13px; text-align: left;">Current streaming service: </div>
+
+    <script>
         var fs = require('fs');
         try {
-            console.log('[index.html] try to load default_service');
+            console.log('[settings.html] try to find default_service');
             fs.readFile('src/default_service',
               // callback function that is called when reading file is done
               function(err, data) {       
                   if (err) throw err;
                   // data is a buffer containing file content
-                  console.log('[index.html] default_service loaded: ' + data.toString('utf8'));
-                  document.getElementById('webview').src = data.toString('utf8');
+                  console.log('[settings.html] default_service found: ' + data.toString('utf8'));
+
+                  document.getElementById('setting_default_service_text').innerHTML = '<div id="setting_default_service_text" style="font-size: 13px; text-align: left;">Current streaming service: '+data.toString('utf8')+'</div>';
     });
     } catch (err) {
-        console.log('[index.html] default_service not found: '+err);
+        console.log('[settings.html] default_service not found: '+err);
+        document.getElementById('setting_default_service_text').innerHTML = '<div id="setting_default_service_text" style="font-size: 13px; text-align: left;">Current streaming service: '+'Not set'+'</div>';
         
     }
     </script>
 
-<webview 
-    useragent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.131 Safari/537.36"
-    id="webview"
-    src="tutorial.html">
-</webview>
+                                    </div>
+                                    <div class="my-2"><button class="btn btn-primary" type="button" style="margin-right: 6px;color: rgb(209, 211, 226);background: rgb(42,45,50);border-color: rgb(209, 211, 226);border-top-color: rgb(209,;border-right-color: 211,;border-bottom-color: 226);border-left-color: 211,;width: 41.5px;" onclick="set_default_service(&#39;https://music.apple.com&#39;)"><i class="fab fa-itunes"></i></button><button class="btn btn-primary" type="button" style="margin-right: 6px;color: rgb(209, 211, 226);background: rgb(42,45,50);border-color: rgb(209, 211, 226);border-top-color: rgb(209,;border-right-color: 211,;border-bottom-color: 226);border-left-color: 211,;" onclick="set_default_service(&#39;https://open.spotify.com&#39;)"><i class="fab fa-spotify"></i></button><button class="btn btn-primary" type="button" style="margin-right: 6px;color: rgb(209, 211, 226);background: rgb(42,45,50);border-color: rgb(209, 211, 226);border-top-color: rgb(209,;border-right-color: 211,;border-bottom-color: 226);border-left-color: 211,;width: 41.5px;" onclick="set_default_service(&#39;https://music.youtube.com&#39;)"><i class="fab fa-youtube"></i></button></div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>

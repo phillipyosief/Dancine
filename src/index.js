@@ -1,5 +1,6 @@
-const { app, BrowserWindow, ipcMain } = require('electron');
+const { app, BrowserWindow, ipcMain, globalShortcut } = require('electron');
 const ipc = ipcMain;
+var fs = require('fs');
 
 function createWindow() {
   const win = new BrowserWindow({
@@ -53,6 +54,7 @@ function createWindow() {
 
 
 
+
 app.whenReady().then(createWindow);
 
 app.on('window-all-closed', () => {
@@ -66,3 +68,9 @@ app.on('activate', () => {
     createWindow();
   }
 });
+
+
+app.on('will-quit', () => {
+  // Unregister all shortcuts.
+  globalShortcut.unregisterAll()
+})
