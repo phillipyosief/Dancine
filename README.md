@@ -10,7 +10,7 @@ Use one music client to play music from multiple streaming services.
 
 ## Download
 
-[Download for Windows]()
+[Download for Windows](https://github.com/philliphqs/musicclient/releases/download/Stable/musicclient-setup-0.0.3.exe)
 
 ## Release History
 

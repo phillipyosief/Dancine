@@ -38,3 +38,17 @@ function GoBack() {
     webview.goBack();
 }
 
+
+  
+
+    
+// document.getElementById('webview').insertCSS(
+//   "ytmusic-app-layout > [slot=player-bar],"+
+//   "#player-bar-background.ytmusic-app-layout {"+
+//   "background-color: #2a2d32}"+
+//   "tp-yt-iron-icon, tp-yt-iron-icon.tp-yt-paper-icon-button, .slider-knob-inner.tp-yt-paper-slider, .slider-knob-inner.tp-yt-paper-slider ,#icon, .style-scope tp-yt-paper-icon-button {"+
+//   "color: #d1d3e2}"
+//   )
+
+
+    
