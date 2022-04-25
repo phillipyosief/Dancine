@@ -1,5 +1,6 @@
-# musicclient
-> Play music from your favorite streaming services. All in one place. 
+<img src="assets/logo-with-text.png" alt="drawing" width="400"/>
+
+> All your music in one place! 
 
 Use one music client to play music from multiple streaming services. 
 
@@ -24,6 +25,12 @@ Use one music client to play music from multiple streaming services.
     * Fixed some bugs
 * 0.0.1: Initial release.
     * Work in progress
+
+
+## Coming features
+
+* 0.0.4
+    * Lyrics support
 
 ## Building
 
