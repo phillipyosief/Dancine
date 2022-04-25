@@ -1,4 +1,5 @@
-<img src="assets/logo-with-text.png" alt="drawing" width="400"/>
+# Dancine <img src="assets/logo.png" align="right" alt="drawing" width="110"/>
+
 
 > All your music in one place! 
 
