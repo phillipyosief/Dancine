@@ -12,7 +12,6 @@ const offline_url = 'offline.html'
 function open_url(url) {
     console.log('[web.js] open_url('+url+')')
 
-
     const config = {
       timeout: 5000, //timeout connecting to each try (default 5000)
       retries: 3,//number of retries to do before failing (default 5)
@@ -26,10 +25,7 @@ function open_url(url) {
       }).catch((err) => {
         console.log("[web.js] No connection", err);
         webview.src = offline_url
-      });
-
-
-    
+      });    
 }
 
 // Goes one page back in history (webview)
